@@ -43,7 +43,7 @@
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "" + ({}[chunkId]||chunkId) + "." + {"0":"5b60c99325776be9e84a"}[chunkId] + ".js"
+/******/ 		return __webpack_require__.p + "" + ({}[chunkId]||chunkId) + "." + {"0":"14e1bc798587ece1e530"}[chunkId] + ".js"
 /******/ 	}
 /******/
 /******/ 	// The require function
@@ -278,7 +278,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _x_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./x.js */ \"./src/x.js\");\n/* harmony import */ var _assets_introduction_jpeg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/introduction.jpeg */ \"./src/assets/introduction.jpeg\");\n\r\n\r\n\r\nconsole.log(_assets_introduction_jpeg__WEBPACK_IMPORTED_MODULE_1__[\"default\"])\r\n\r\nconst photoDiv = document.querySelector('#photo')\r\nphotoDiv.innerHTML = `<img src=${_assets_introduction_jpeg__WEBPACK_IMPORTED_MODULE_1__[\"default\"]} width=\"50%\">`\r\n\r\nconst button = document.createElement('button')\r\nbutton.innerText = '懒加载'\r\nbutton.onclick = ()=>{\r\n    const promise = __webpack_require__.e(/*! import() */ 0).then(__webpack_require__.bind(null, /*! ./lazy */ \"./src/lazy.js\"))\r\n    promise.then((module)=>{\r\n        module.default()\r\n    }, ()=>{\r\n        console.log('懒加载失败')\r\n    })\r\n}\r\nphotoDiv.appendChild(button)\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _x_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./x.js */ \"./src/x.js\");\n/* harmony import */ var _assets_introduction_jpeg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/introduction.jpeg */ \"./src/assets/introduction.jpeg\");\n\n\n\nconsole.log(_assets_introduction_jpeg__WEBPACK_IMPORTED_MODULE_1__[\"default\"])\n\nconst photoDiv = document.querySelector('#photo')\n// photoDiv.innerHTML = `<img src=${img} width=\"50%\">`\n\nconst button = document.createElement('button')\nbutton.innerText = '懒加载'\nbutton.onclick = () => {\n    const promise = __webpack_require__.e(/*! import() */ 0).then(__webpack_require__.bind(null, /*! ./lazy */ \"./src/lazy.js\"))\n    promise.then((module) => {\n        module.default()\n    }, () => {\n        console.log('懒加载失败')\n    })\n}\nphotoDiv.appendChild(button)\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
@@ -290,7 +290,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _x_j
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _x_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./x.scss */ \"./src/x.scss\");\n/* harmony import */ var _x_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_x_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _y_less__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./y.less */ \"./src/y.less\");\n/* harmony import */ var _y_less__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_y_less__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _z_styl__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./z.styl */ \"./src/z.styl\");\n/* harmony import */ var _z_styl__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_z_styl__WEBPACK_IMPORTED_MODULE_2__);\n\r\n\r\n\r\n/* harmony default export */ __webpack_exports__[\"default\"] = ('xxx');\n\n//# sourceURL=webpack:///./src/x.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _x_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./x.scss */ \"./src/x.scss\");\n/* harmony import */ var _x_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_x_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _y_less__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./y.less */ \"./src/y.less\");\n/* harmony import */ var _y_less__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_y_less__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _z_styl__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./z.styl */ \"./src/z.styl\");\n/* harmony import */ var _z_styl__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_z_styl__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ('xxx');\n\n//# sourceURL=webpack:///./src/x.js?");
 
 /***/ }),
 
